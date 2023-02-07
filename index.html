@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	
+	<div class="container">	
+			<nav>
+				<img src="lotus_PNG29.png" alt="">
+				<ul>
+					<li><a href="index.css">HOME</a></li>
+					<li><a href="index.css">ABOUT</a></li>
+					<li><a href="index.css">PORTFOLIO</a></li>
+					<li><a href="index.css">SERVICES</a></li>
+					<li><a href="index.css">CONTACT-US</a></li>
+				</ul>
+				<img src="moon_PNG37.png" alt="" id="moon">
+			</nav> 
+
+			<div class="description">
+				<h1> i am <span>3Rd</span> eYe</h1>
+				<p>	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos adipisci, sapiente aut unde nemo autem accusantium molestias natus ex. Dolore eum dolor facere nostrum optio repellendus molestias consectetur asperiores repudiandae.</p>
+				<a href="file:///E:/css%20design/index.html">download CV</a>
+
+				<div class="image-box">
+					<img src="pattern.png" class="firststimg" alt="">
+				<img src="girl.png" class="secondimg" alt="">
+				
+				</div>
+	</div>  
+
+		<div class="social-link">
+			<a href=""><i class="fab fa-facebook fb"id="facebook"></i></a>
+			<a href=""><i class="fab fa-twitter"id="twitter"></i></a>
+			<a href=""><i class="fab fa-linkedin" id="linkedin"></i></a>
+			<a href=""><i class="fab fa-whatsapp" id="whatsapp"></i></a>
+		</div>
+
+
+	</div>	
+	
+	<script>
+		var moon = document.getElementById("moon");
+		moon.onclick=function(){
+			document.body.classList.toggle("dark-theme");
+			if(document.body.classList.contains("dark-theme"))
+			{
+				moon.src="sun_PNG13446.png";
+			}
+			else{
+				moon.src="moon_PNG37.png";
+			}
+		}
+	</script>
+		
+</body>
+</html>
